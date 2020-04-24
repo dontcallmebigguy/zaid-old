@@ -111,14 +111,14 @@ h1 {
 }
 
 .links {
-    padding-top: 5px;
+    padding-top: 10px;
     flex-direction: row;
     -webkit-flex-direction: row;
 }
 
 .link {
     color: white;
-    padding: 3px;
+    padding: 10px;
 }
 
 html {
