@@ -92,17 +92,33 @@ html, body {
 }
 
 .intro {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Baloo Tamma 2', cursive;
     border-width: thin;
-    background-color: rgba(44,43,43,.6);
+    font-weight: bolder;
+    background-color: rgba(47, 47, 47, 0.5);
     position: absolute;
     color: white;
-    font-size: x-large;
     top: 3em;
     right: 3em;
     left: 3em;
+    bottom: 3em;
     text-align: center;
     padding: 20px;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.links {
+    padding-top: 5px;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.link {
+    color: white;
+    padding: 3px;
 }
 
 html {
@@ -115,7 +131,6 @@ body {
 
 canvas {
     display: block;
-    vertical-align: bottom;
 }
 
 /* ---- stats.js ---- */
@@ -165,4 +180,14 @@ canvas {
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        top: 1em;
+        right: 1em;
+        left: 1em;
+        bottom: 1em;
+    }
 }
