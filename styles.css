@@ -98,10 +98,10 @@ html, body {
     background-color: rgba(47, 47, 47, 0.5);
     position: absolute;
     color: white;
-    top: 3em;
-    right: 3em;
-    left: 3em;
-    bottom: 3em;
+    top: 5em;
+    right: 10em;
+    left: 10em;
+    bottom: 5em;
     text-align: center;
     padding: 20px;
 }
@@ -119,6 +119,11 @@ h1 {
 .link {
     color: white;
     padding: 10px;
+}
+
+.link:hover {
+    color: green;
+    transform: scale(1.5);
 }
 
 html {
@@ -183,7 +188,7 @@ canvas {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .intro {
         top: 1em;
         right: 1em;
