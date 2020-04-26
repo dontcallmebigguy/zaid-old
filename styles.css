@@ -246,7 +246,7 @@ canvas {
     border-top: none;
     text-align: left;
     font-size: small;
-    background-color: rgba(100, 94, 94, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .tabcontent {
